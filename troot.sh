@@ -20,6 +20,6 @@ chroot /mnt/gentoo /bin/bash
 
 # mount /dev/sda1 /boot
 # OR
-# mount /dev/nvme0n1p3 /boot
+# mount /dev/nvme0n1p1 /boot
 
 
