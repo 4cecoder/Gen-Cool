@@ -22,4 +22,5 @@ chroot /mnt/gentoo /bin/bash
 # OR
 # mount /dev/nvme0n1p1 /boot
 
-
+# Grub RE-Config
+# grub-mkconfig -o /boot/grub/grub.cfg
