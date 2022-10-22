@@ -1,7 +1,8 @@
 #!/bin/bash
 mkdir --parents /mnt/gentoo
 # mount /dev/sda3 /mnt/gentoo
-mount /dev/nvme0n1p3
+# OR
+mount /dev/nvme0n1p3 /mnt/gentoo
 
 mkdir --parents /mnt/gentoo/etc/portage/repos.conf
 mount --types proc /proc /mnt/gentoo/proc
@@ -16,4 +17,9 @@ chroot /mnt/gentoo /bin/bash
 # Post Chroot
 # source /etc/profile
 # export PS1="(chroot) ${PS1}"
+
 # mount /dev/sda1 /boot
+# OR
+# mount /dev/nvme0n1p3 /boot
+
+
