@@ -1,1 +1,2 @@
-# qchroot
+# quick chroot 
+### Gentoo Stuff
