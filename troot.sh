@@ -1,4 +1,7 @@
 #!/bin/bash
+mkdir --parents /mnt/gentoo
+# mount /dev/sda3 /mnt/gentoo
+mount /dev/nvme0n1p3
 
 mkdir --parents /mnt/gentoo/etc/portage/repos.conf
 mount --types proc /proc /mnt/gentoo/proc
