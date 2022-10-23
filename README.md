@@ -1,2 +1,2 @@
-# quick chroot 
-### Gentoo Stuff
+
+# [quick chroot](troot.sh)
