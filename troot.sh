@@ -15,12 +15,12 @@ mount --make-slave /mnt/gentoo/run
 chroot /mnt/gentoo /bin/bash 
 
 # Post Chroot
-# source /etc/profile
-# export PS1="(chroot) ${PS1}"
+ source /etc/profile
+ export PS1="(chroot) ${PS1}"
 
 # mount /dev/sda1 /boot
 # OR
-# mount /dev/nvme0n1p1 /boot
+ mount /dev/nvme0n1p1 /boot
 
 # Grub RE-Config
 # grub-mkconfig -o /boot/grub/grub.cfg
