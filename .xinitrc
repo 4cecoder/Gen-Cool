@@ -1,3 +1,5 @@
+#xmodmap -e "keycode 135 = Super_L"
+#xmodmap -e "remove mod1 = Super_L"
+picom
 source /home/fource/.fehbg
-picom  --config ~/.config/picom/picom.conf
 dbus-launch --sh-syntax --exit-with-session dwm
