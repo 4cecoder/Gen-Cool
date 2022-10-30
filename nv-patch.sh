@@ -1,10 +1,10 @@
 ### fetching the code and attempt to build (should fail on linux kernel 6+)
-# emerge =nvidia-drivers-470.141.03
+emerge =nvidia-drivers-470.141.03
 
 
 ### disabling greater versions systemwide
-mkdir /etc/portage/package.mask/x11-drivers/
-echo ">=x11-drivers/nvidia-drivers-471" >> /etc/portage/package.mask/x11-drivers/nvidia-drivers
+#mkdir /etc/portage/package.mask/x11-drivers/
+#echo "nvidia-drivers-471" >> /etc/portage/package.mask/x11-drivers/nvidia-drivers
 
 
 ### patching driver
