@@ -1,5 +1,7 @@
-#xmodmap -e "keycode 135 = Super_L"
-#xmodmap -e "remove mod1 = Super_L"
+gentoo-pipewire-launcher &
+
+xmodmap -e "keycode 135 = Super_L"
+xmodmap -e "remove mod1 = Super_L"
 
 # dpi scaling settings
 [[ -f ~/.Xresources ]] && xrdb -merge -I$HOME ~/.Xresources
